@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.WelcomeMessage {
+  color: blueviolet; 
+  font-weight: 400;
+  font-style: italic;
+}
+.Selection {
+  text-align: justify;
+  color: aqua;
+  font-family: cursive;
+  font-weight: 100;
+  font-size: medium;
+  font-style: oblique;
+}
