@@ -1,46 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Ul from './Ul';
 
 function App() {
-  const variable = ["Bla", "bla", "truc"];
+  
   const mina = [10, 15, 20, 30, 40];
+  
 
-  let output = "";
-
-  for (let i =0; i< mina.length;i++) {
-    output += mina[i]+ " ";
-  }
+  const variable = ["Bla", "bla", "truc"];
+  const novi = [2,4,6,8,10]
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p className="WelcomeMessage">
-          Hello & Welcome to our Unique world of jewelry! Let us take you on a jurney through the cristals...
+          Welcome to UQ Design!
         </p>
-        <ul className="Selection">
-          {variable.map (function (item) {
-            return (
-              <li>
-                {item}
-                </li>
 
-            )
-          }
-          )}
-          </ul>
+        <Ul variable={variable} title="Variable title" description="OPIS"/>
+        <Ul variable={novi}/>
           
-          {mina.map (function(item) {
-            return (
-              <span>{item}</span>
-            )
-          }
-          )}
-         
+<Ul variable={mina} description="test123131"/>
 
-          {variable}
           <br/>
-          {output}
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -52,7 +35,7 @@ function App() {
     
       </header>
     </div>
-  );
-}
+  )
+  }
 
 export default App;
