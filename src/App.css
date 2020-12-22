@@ -29,8 +29,6 @@ border-radius: 20px;
 
 }
 
-
-
 .App-header {
   background-color: transparent;
   min-height: 100vh;
@@ -53,4 +51,11 @@ border-radius: 20px;
   to {
     transform: rotate(360deg);
   }
+}
+.card-header {
+  background-color: #567787 !important; 
+  color: #9cdfff;
+  font-style: oblique;
+  font-stretch: extra-condensed;
+  font-weight: 800;
 }
