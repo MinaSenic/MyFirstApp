@@ -18,10 +18,9 @@ function App() {
           Welcome to UQ Design!
         </p>
 
-        <Ul variable={variable} title="Variable title" description="OPIS"/>
-        <Ul variable={novi}/>
-          
-<Ul variable={mina} description="test123131"/>
+        <Ul variable={variable} title="Variable title" description="OPIS" startingNumber="10" name="Prva"/>
+        <Ul variable={novi} startingNumber="23" name="Druga"/>
+        <Ul variable={mina} description="test123131" startingNumber="30" name="Treca"/>
 
           <br/>
         <a

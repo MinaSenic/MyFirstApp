@@ -17,6 +17,20 @@ body{
   background-image: url(./background.jpg) !important;
 }
 
+.CrvenoDugme {
+background-color: crimson;
+border: 2px solid #000000; 
+border-radius: 20px;
+}
+
+.PlavoDugme {
+  background-color: cornflowerblue;
+  border-color: darkblue;
+
+}
+
+
+
 .App-header {
   background-color: transparent;
   min-height: 100vh;
